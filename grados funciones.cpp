@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
         verificar(op);
     } while ( op != 7 );
    
-    return (EXIT_SUCCESS);
+    return 0;
 }
 
  void verificar(int op) { 
